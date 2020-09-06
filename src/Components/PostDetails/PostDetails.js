@@ -14,12 +14,11 @@ const PostDetails = () => {
     },[])
 
     return (
-        <div className='post-details'>
-            <br />
-            <br />
-            <br />
-            <h3><em style={{color:'#6F1E51',}}>Title:  </em> {post.title}</h3>
-            <p><em style={{color:'#6F1E51',}}>Details:  </em> {post.body}</p>
+        <div>
+            <div  className='post-details'>
+            <p><em><strong>Title:  </strong></em> {post.title}</p>
+            <p><em><strong>Details:  </strong></em> {post.body}</p>
+            </div>
             <Comments></Comments>
 
         </div>

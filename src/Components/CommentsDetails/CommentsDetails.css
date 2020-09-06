@@ -1,6 +1,4 @@
-.comment-detail{
-    float: left;
-    margin-left: 50px;
+.comment-details{
     margin-bottom: 10px;
     width: 100%;
     border-bottom: 1px solid grey;
@@ -9,9 +7,5 @@ h5,h6{
     margin-left: 50px;
 }
 .avatar{
-    margin-top: 40px;
-    width: 10%,
-}
-.avatar-details{
-    width: 70%
+    margin-left: 50px;
 }
